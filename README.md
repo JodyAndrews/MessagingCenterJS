@@ -55,3 +55,8 @@ MessagingCenter.subscribe(['hello', 'howareyou', 'goodbye'], function(cData) {
 });
 ```
 
+Allow late subscription to published messages. Message subscriptions defined AFTER this message is published will be executed immediately to allow catch up.
+
+```html
+MessagingCenter.publish('hello', ++nTimes, true);
+```
