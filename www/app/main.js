@@ -31,8 +31,6 @@ requirejs(["../../MessagingCenter"], function(MessagingCenter) {
 		return nTimes % 2;
 	});
 
-	console.log(MessagingCenter.getSubscribed());
-
 	// Helper to set the innerText on an element
 	function setElementText(sId, sText) {
 		document.getElementById(sId).innerText = sText;
