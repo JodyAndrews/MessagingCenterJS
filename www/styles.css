@@ -1,0 +1,39 @@
+
+body {
+	font-size: 24px;
+}
+
+.container > div {
+	display:flex;
+	position:fixed;
+	width:50%;
+	height:50%;
+	border: 1px dashed darkgray;
+	box-sizing: border-box;
+	flex-direction: column;
+}
+
+.subscriber {
+	margin:auto;
+}
+
+.top {
+	top:0;
+}
+
+.right {
+	right:0;
+}
+
+.bottom {
+	bottom:0;
+}
+
+.left {
+	left:0;
+}
+
+button {
+	margin:auto;
+	font-size: 24px;
+}

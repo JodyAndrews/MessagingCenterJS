@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MessagingCenter Example</title>
+		<script data-main="app" src="lib/require.js"></script>
+		<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+		<div class="container">
+			<div class="top left">
+				<button type="button" onClick="sendMessage()">Send Hello</button>
+				<div id="sender" style="margin:auto">Sent 0 Times</div>
+			</div>
+			<div class="top right">
+					<div>Get all messages</div>
+				<div id="subscriber1" class="subscriber">No Message</div>
+			</div>
+			<div class="bottom right">
+					<div>Get only first message</div>
+				<div id="subscriber2" class="subscriber">No Message</div>
+			</div>
+			<div class="bottom left">
+				<div>Get every other message</div>
+				<div id="subscriber3" class="subscriber">No Message</div>
+			</div>
+		</div>
+</html>
