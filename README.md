@@ -1,6 +1,6 @@
 # MessagingCenterJS
 
-(Very) Simple Messaging module to publish and subscribe to messages across modules.
+(Very) Simple Messaging module to publish and subscribe to messages across modules, with ability to subscribe after a message is published.
 
 ### Basic Example
 
