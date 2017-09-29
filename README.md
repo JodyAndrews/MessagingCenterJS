@@ -4,6 +4,14 @@
 
 ### Basic Example
 
+Add MessagingCenter.js to project library and require in one or more modules
+
+```html
+requirejs(["MessagingCenter"], function(MessagingCenter) {
+	
+});
+```
+
 Subscribe to a message
 
 ```html
