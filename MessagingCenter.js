@@ -99,6 +99,7 @@ define([
 		});
 
 		return {
+			// Remove a delegate
 			remove: function () {
 				delete cDelegates[sEvent][sHandle];
 			}
